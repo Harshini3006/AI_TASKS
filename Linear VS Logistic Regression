@@ -1,0 +1,33 @@
+LINEAR REGRESSION 
+Linear Regression is a supervised machine learning algorithm used to predict continuous output values based on input features.
+It establishes a linear relationship between independent variables and a dependent variable.
+The model assumes that changes in the input variables result in proportional changes in the output.
+Simple Linear Regression uses one independent variable to make predictions.
+Multiple Linear Regression uses two or more independent variables.
+The mathematical model is represented as y = b₀ + b₁x₁ + b₂x₂ + ….
+The coefficients (b values) represent how much the output changes with respect to each input feature.
+The main objective is to minimize the difference between actual and predicted values.
+This difference is measured using error metrics like Mean Squared Error (MSE).
+Linear Regression assumes linearity, independence, homoscedasticity, and normality of errors.
+The algorithm is sensitive to outliers, which can affect the regression line significantly.
+It performs best when there is low correlation among independent variables.
+Linear Regression is simple, fast, and easy to interpret, making it a good baseline model.
+It is widely used for forecasting, trend analysis, and risk assessment.
+Common applications include sales prediction, price estimation, and demand forecasting.
+
+LOGISTIC REGRESSION
+Logistic Regression is a supervised machine learning algorithm mainly used for classification tasks.
+It is commonly applied to binary classification problems such as yes/no or true/false outcomes.
+The model predicts the probability of an event rather than a direct class label.
+The predicted probability value always lies between 0 and 1.
+Logistic Regression uses the sigmoid (logistic) function to map values to probabilities.
+The sigmoid function converts linear outputs into an S-shaped curve.
+A decision threshold (usually 0.5) is used to assign class labels.
+The model represents the relationship between features and the log-odds of the outcome.
+The mathematical form is log(p / (1 − p)) = b₀ + b₁x₁ + b₂x₂ + ….
+Model parameters are learned using Maximum Likelihood Estimation (MLE).
+The cost function used is log loss (cross-entropy loss).
+Logistic Regression assumes a linear relationship between features and log-odds.
+It can be affected by outliers and multicollinearity.
+The model is easy to implement and interpret, especially for binary outcomes.
+Common applications include spam detection, disease prediction, fraud detection, and customer churn analysis.
